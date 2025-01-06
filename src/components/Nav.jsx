@@ -8,7 +8,7 @@ export const Nav = () => {
   };
 
   return (
-    <nav className="max-w-7xl mx-auto flex justify-around items-center py-7 px-4">
+    <nav className="max-w-7xl mx-auto flex justify-between items-center py-7 px-4">
       <a className="flex flex-col text-center" href="#">
         <span className="text-primary font-semibold text-2xl">CREATIC</span>
         <span className="text-white text-xs">CREATIVE AGENCY</span>
