@@ -12,7 +12,7 @@ export const About = () => {
                 <span className='text-primary font-semibold'>We Love Creating</span>
                 <p className="text-white leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, accusamus! Nostrum quo esse autem error ipsum odio maxime minus est!</p>
                 <p className="text-white leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, voluptatibus.</p>
-                <a href="#" className="text-white w-36 text-center p-3 border-solid border-primary block">READ MORE</a>
+                <a href="#" className="text-white w-36 text-center p-2 border-solid border-primary block">READ MORE</a>
             </div>
         </section>
   )

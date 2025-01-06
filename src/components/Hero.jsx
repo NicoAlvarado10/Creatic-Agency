@@ -8,7 +8,7 @@ export const Hero = () => {
             <span className='border-solid border-primary w-36
             '></span>
             <p className="text-white leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, accusamus! Nostrum quo esse autem error ipsum odio maxime minus est!</p>
-            <a href="#" className="text-white w-36 text-center p-3 border-solid border-primary block">GET IN TOUCH</a>
+            <a href="#" className="text-white w-36 text-center p-2 border-solid border-primary block">GET IN TOUCH</a>
         </div>
         <div><img src={heroImg}  alt="hero-image" /></div>
     </section>
