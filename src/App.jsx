@@ -1,4 +1,5 @@
 import { About } from "./sections/About"
+import { Experience } from "./sections/Experience"
 import { Home } from "./sections/Home"
 import { Metrics } from "./sections/Metrics"
 import { Portfolio } from "./sections/Portfolio"
@@ -14,6 +15,7 @@ function App() {
     <Services/>
     <Metrics/>
     <Portfolio/>
+    <Experience/>
     </>
   )
 }
