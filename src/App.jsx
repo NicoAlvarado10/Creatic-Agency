@@ -4,6 +4,7 @@ import { Home } from "./sections/Home"
 import { Metrics } from "./sections/Metrics"
 import { Portfolio } from "./sections/Portfolio"
 import { Services } from "./sections/Services"
+import { Testimonials } from "./sections/Testimonials"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Metrics/>
     <Portfolio/>
     <Experience/>
+    <Testimonials/>
     </>
   )
 }
