@@ -1,4 +1,5 @@
 import { About } from "./sections/About"
+import { Contact } from "./sections/Contact"
 import { Experience } from "./sections/Experience"
 import { Home } from "./sections/Home"
 import { Metrics } from "./sections/Metrics"
@@ -18,6 +19,7 @@ function App() {
     <Portfolio/>
     <Experience/>
     <Testimonials/>
+    <Contact/>
     </>
   )
 }
