@@ -23,3 +23,18 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: #000;
 }
+
+p{
+  letter-spacing: 0.5px;
+}
+
+.image{
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.gradient{
+  background: linear-gradient(to right, #050505 30%, #151515 80%, #1D2539 );
+
+
+}
