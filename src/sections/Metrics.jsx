@@ -7,7 +7,7 @@ import metricsImg4 from '../assets/group-3.svg'
 export const Metrics = () => {
   return (
     <section className="gradient py-16">
-        <div className="max-w-7xl mx-auto items-center  grid md:grid-cols-4 justify-between">
+        <div className="max-w-7xl mx-auto items-center grid-cols-2 max-md:gap-4  grid md:grid-cols-4 justify-between">
         <MetricsCard
             icon={metricsImg}
             number={'50+'}

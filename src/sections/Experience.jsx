@@ -1,12 +1,12 @@
 
 export const Experience = () => {
   return (
-    <section className="max-w-7xl mx-auto grid grid-cols-2 items-center justify-center py-40">
+    <section className="max-w-7xl mx-auto grid grid-cols-1 max-md:px-4 max-md:gap-4 md:grid-cols-2 items-center justify-center py-40 max-sm:py-16 max-lg:px-4">
         <div className="flex flex-col">
             <span className="text-white">WHY US?</span>
             <span className='border-solid border-primary w-20
                 '></span>
-            <h2 className="text-white text-4xl font-bold mt-4 text-balance">25 YEARS OF <span className="text-primary">EXPERIENCE</span> AS A CREATIVE AGENCY</h2>
+            <h2 className="text-white text-4xl max-sm:text-3xl font-bold mt-4 text-balance">25 YEARS OF <span className="text-primary">EXPERIENCE</span> AS A CREATIVE AGENCY</h2>
             <a className="text-white w-36 text-center mt-4 p-2 border-solid border-primary block" href="#">READ MORE</a>    
         </div>
         <div >

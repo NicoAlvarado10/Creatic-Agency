@@ -11,7 +11,7 @@ export const Services = () => {
     
     <div className="flex flex-col gap-6">
         <span className="text-primary font-semibold">OUR SERVICES</span>
-        <h2 className="text-white text-5xl font-bold ">Experience The Power Of <span className="text-primary">Innovation</span>.</h2>
+        <h2 className="text-white text-5xl max-sm:text-3xl font-bold ">Experience The Power Of <span className="text-primary">Innovation</span>.</h2>
         <span className='border-solid border-white w-36
         '></span>
         <p className="text-white leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, accusamus! Nostrum quo esse autem error ipsum odio maxime minus est!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque voluptate aut quis id natus nihil a, eveniet officiis dicta!</p>

@@ -1,11 +1,11 @@
 
 export const Contact = () => {
   return (
-    <section className="grid grid-cols-2 max-w-7xl mx-auto items-center py-14">
+    <section className="grid grid-cols-1 max-lg:px-4 max-md:gap-4 md:grid-cols-2 max-w-7xl mx-auto items-center py-14">
         <div className="flex flex-col gap-5">
-            <h2 className="text-white text-4xl">GET IN <span className="text-primary">TOUCH</span></h2>
+            <h2 className="text-white text-4xl max-sm:text-3xl">GET IN <span className="text-primary">TOUCH</span></h2>
             <span className="w-20 border-solid border-white"></span>
-            <p className="text-white text-balance">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque mollitia voluptates harum quos quam nisi beatae minima blanditiis odit!</p>
+            <p className="text-white md:text-balance ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque mollitia voluptates harum quos quam nisi beatae minima blanditiis odit!</p>
             <ul className="text-white flex flex-col gap-4">
                 <li className="flex gap-3">
                     <div className="flex items-center gap-3">
@@ -40,7 +40,7 @@ export const Contact = () => {
             </ul>
         </div>
         <div>
-            <form action="/" className="text-white flex flex-col gap-8 bg-slate-950 rounded-3xl py-8 w-10/12 mx-auto">
+            <form action="/" className="text-white flex flex-col gap-8 bg-slate-950 rounded-3xl py-8 w-10/12 mx-auto max-md:w-11/12">
                 <label className="text-white flex flex-col mx-auto gap-2 w-10/12 text-sm" htmlFor="YOUR NAME">
                     YOUR NAME
                 <input type="text" className="bg-slate-950 border-solid border-white"/>
@@ -56,6 +56,7 @@ export const Contact = () => {
                 <button  className="text-center bg-primary w-40 mx-auto px-3 py-2 text-black transition duration-150 hover:text-white" type="submit">SEND MESSAGE</button>
             </form>
         </div>
+        
     </section>
   )
 }

@@ -1,12 +1,9 @@
 import  { useState } from 'react';
-
 export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <nav className="max-w-7xl mx-auto flex justify-between items-center py-7 px-4">
       <a className="flex flex-col text-center" href="#">
