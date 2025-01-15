@@ -1,4 +1,4 @@
-import clientImg from '../assets/Ellipse 1.webp';
+import clientImg from '../assets/Ellipse-1.webp';
 import women1Img from '../assets/Image.webp'
 import women2Img from '../assets/Image-2.webp'
 

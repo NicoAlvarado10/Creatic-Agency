@@ -1,8 +1,8 @@
 import {ServicesCard} from '../components/ServicesCard'
-import servicesImg1 from '../assets/Video icon.svg'
-import servicesImg2 from '../assets/graphic icon.svg'
+import servicesImg1 from '../assets/Video-icon.svg'
+import servicesImg2 from '../assets/graphic-icon.svg'
 import servicesImg3 from '../assets/ux.svg'
-import servicesImg4 from '../assets/Web icon.svg'
+import servicesImg4 from '../assets/Web-icon.svg'
 
 
 export const Services = () => {
