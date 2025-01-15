@@ -1,8 +1,8 @@
 import { MetricsCard } from "../components/MetricsCard"
-import metricsImg from '../assets/group.svg'
-import metricsImg2 from '../assets/group-1.svg'
-import metricsImg3 from '../assets/group-2.svg'
-import metricsImg4 from '../assets/group-3.svg'
+import metricsImg from '../assets/Group.svg'
+import metricsImg2 from '../assets/Group-1.svg'
+import metricsImg3 from '../assets/Group-2.svg'
+import metricsImg4 from '../assets/Group-3.svg'
 
 export const Metrics = () => {
   return (

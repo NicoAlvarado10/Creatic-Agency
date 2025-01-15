@@ -1,4 +1,4 @@
-import heroImg from '../assets/beautiful-woman-with-big-jewel 1.webp';
+import heroImg from '../assets/women-hero.webp';
 
 export const Hero = () => {
   return (
