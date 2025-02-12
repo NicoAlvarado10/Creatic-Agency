@@ -1,11 +1,11 @@
 
 export const Contact = () => {
   return (
-    <section className="grid grid-cols-1 max-lg:px-4 max-md:gap-4 md:grid-cols-2 max-w-7xl mx-auto items-center py-14">
+    <section id="contact" className="grid grid-cols-1 max-lg:px-4 max-md:gap-4 md:grid-cols-2 max-w-7xl mx-auto items-center py-14">
         <div className="flex flex-col gap-5">
             <h2 className="text-white text-4xl max-sm:text-3xl">GET IN <span className="text-primary">TOUCH</span></h2>
             <span className="w-20 border-solid border-white"></span>
-            <p className="text-white md:text-balance ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque mollitia voluptates harum quos quam nisi beatae minima blanditiis odit!</p>
+            <p className="text-white md:text-balance "> We believe in the power of design to communicate and transform. We offer graphic, web, and branding design services, adapted to your needs.</p>
             <ul className="text-white flex flex-col gap-4">
                 <li className="flex gap-3">
                     <div className="flex items-center gap-3">

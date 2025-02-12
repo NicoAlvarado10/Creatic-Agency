@@ -16,7 +16,7 @@ export const Footer = () => {
             <li><a className="text-primary font-semibold" href="#">Support</a></li>
         </ul>
       </nav>
-      <p className="text-white flex items-center justify-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quae!</p>
+      <p className="text-white flex items-center justify-center text-center">Your vision, our design: together we create unique experiences.</p>
       <div className="flex justify-center items-center gap-4 text-primary text-2xl ">
         <span><i className="ri-facebook-circle-fill"></i></span>
         <span><i className="ri-instagram-line"></i></span>

@@ -2,7 +2,7 @@ import heroImg from '../assets/women-hero.webp';
 
 export const Hero = () => {
   return (
-    <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 mt-40 max-md:mt-28 px-4 max-md:gap-8">
+    <section id='hero' className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 mt-40 max-md:mt-28 px-4 max-md:gap-8">
       {/* Text Content */}
       <div className="flex flex-col gap-6">
         <span className="text-primary font-semibold text-center md:text-left">
@@ -13,7 +13,7 @@ export const Hero = () => {
         </h1>
         <span className="border-solid border-primary w-36 h-[2px] mx-auto md:mx-0"></span>
         <p className="text-white leading-8 text-center md:text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, accusamus! Nostrum quo esse autem error ipsum odio maxime minus est!
+        We believe in the power of design to communicate and transform. We offer graphic, web, and branding design services, adapted to your needs.
         </p>
         <a
           href="#"

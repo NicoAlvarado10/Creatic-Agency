@@ -33,32 +33,32 @@ export const Nav = () => {
           } md:flex`}
         >
           <li>
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="#hero" className="hover:text-primary transition-colors">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="#about" className="hover:text-primary transition-colors">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="#services" className="hover:text-primary transition-colors">
               Services
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="#portfolio" className="hover:text-primary transition-colors">
               Portfolio
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="#pages" className="hover:text-primary transition-colors">
               Pages
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-primary transition-colors">
+            <a href="#contact" className="hover:text-primary transition-colors">
               Contact Us
             </a>
           </li>
