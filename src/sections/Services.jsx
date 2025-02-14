@@ -69,50 +69,17 @@ export const Services = () => {
         </motion.a>
       </motion.div>
 
-      <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 gap-2"
-        initial={{ opacity: 0, x: 50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-        viewport={{ once: true, amount: 0.3 }}
-      >
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true, amount: 0.3 }}
-        >
-          <ServicesCard src={servicesImg1} title={"VIDEO MARKETING"} descp={"We design videos that increase sales"} />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true, amount: 0.3 }}
-        >
-          <ServicesCard src={servicesImg2} title={"GRAPHIC DESIGN"} descp={"Strategy and brand design"} />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          viewport={{ once: true, amount: 0.3 }}
-        >
-          <ServicesCard src={servicesImg3} title={"MARKET ANALYSIS"} descp={"We analyze the market and the competition"} />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          viewport={{ once: true, amount: 0.3 }}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
          
-        >
+          <ServicesCard src={servicesImg1} title={"VIDEO MARKETING"} descp={"We design videos that increase sales"} />
+      
+          <ServicesCard src={servicesImg2} title={"GRAPHIC DESIGN"} descp={"Strategy and brand design"} />
+      
+          <ServicesCard src={servicesImg3} title={"MARKET ANALYSIS"} descp={"We analyze the market and the competition"} />
+           
           <ServicesCard src={servicesImg4} title={"WEBSITE DESIGN"} descp={"We design custom sites"} />
-        </motion.div>
-      </motion.div>
+      
+      </div>
     </section>
   );
 };
