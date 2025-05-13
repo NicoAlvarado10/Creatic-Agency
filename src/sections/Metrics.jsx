@@ -12,7 +12,6 @@ export const Metrics = () => {
         className="max-w-7xl mx-auto items-center grid-cols-2 max-md:gap-4 grid md:grid-cols-4 justify-between"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
         variants={{
           visible: {
             transition: { staggerChildren: 0.3 }, // Retraso progresivo
@@ -24,7 +23,7 @@ export const Metrics = () => {
             key={index}
             variants={{
               hidden: { opacity: 0, scale: 0.8 },
-              visible: { opacity: 1, scale: 1, transition: { duration: 0.6 } },
+              visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
             }}
           >
             <MetricsCard

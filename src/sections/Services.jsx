@@ -11,19 +11,16 @@ export const Services = () => {
       id="services"
       className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 mt-24 px-4 py-16 items-center gap-6"
     >
-      <motion.div
+      <div
         className="flex flex-col gap-6"
-        initial={{ opacity: 0, x: -50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: true, amount: 0.3 }}
+       
       >
         <motion.span
           className="text-primary font-semibold"
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8  }}
+         
         >
           OUR SERVICES
         </motion.span>
@@ -32,8 +29,8 @@ export const Services = () => {
           className="text-white text-5xl max-sm:text-3xl font-bold"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+       
         >
           Experience The Power Of <span className="text-primary">Innovation</span>.
         </motion.h2>
@@ -42,16 +39,16 @@ export const Services = () => {
           className="border-solid border-white w-36"
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        
         ></motion.span>
 
         <motion.p
           className="text-white leading-8"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+     
         >
           At Creatic Agency, we offer a wide range of design services to meet all your creative and business needs.
         </motion.p>
@@ -61,13 +58,12 @@ export const Services = () => {
           className="text-white w-36 text-center p-2 border-solid border-primary block"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
           whileHover={{ scale: 1.1 }}
-          viewport={{ once: true, amount: 0.3 }}
         >
           VIEW ALL
         </motion.a>
-      </motion.div>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
          
